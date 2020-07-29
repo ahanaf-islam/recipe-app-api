@@ -32,7 +32,7 @@ class UserSerializer(serializers.ModelSerializer):
             user.save()
 
         return user
-        
+
 
 class AuthonTokenSerializer(serializers.Serializer):
     """Serializer for the user authentication object"""
